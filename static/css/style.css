@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
 *{
     padding: 0;
     margin: 0;
@@ -7,60 +9,13 @@
 
 .grid-container {
     display: grid;
+    position: relative;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    justify-content: space-around;
+    /* grid-gap: 20px; */
     text-align: center;
+    background-color: #ffced7;
+    min-height: 100vh;
     overflow: hidden;
-}
-
-.btn1,.btn2{
-    border: none;
-    border-radius: 40px;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    background: #5995fd;
-    margin-top: 0px;
-}
-
-.btn1:hover, .btn2:hover{
-    background:  #4d84e2;
-}
-
-.btn2{
-    margin-top: 10px;
-}
-
-.grid-child-2:before{
-        content: '';
-        position: absolute;
-        width: 2000px;
-        height: 2000px;
-        border-radius: 50%;
-        background: linear-gradient(-45deg, #3399ff ,#3399ff);
-        margin-top: -10%;
-        left: 0%;
-        transform: translateY(-50%);
-        z-index: -1;
-    }
-
-    
-.grid-child-1:before{
-    content: '';
-    position: absolute;
-    width: 2000px;
-    height: 2000px;
-    border-radius: 50%;
-    background: linear-gradient(-45deg, #fa8072 ,#d8301d);
-    bottom: 10%;
-    right: 0%;
-    transform: translateY(-50%);
-    z-index: -1;
-}
-
-.twitter-timeline{
-    margin: 100px;
 }
 
 .grid-child-1{
@@ -68,14 +23,69 @@
 }
 
 .grid-child-2{
-    position: relative;
+    /* position: relative;
     overflow: hidden;
     padding: 3rem 12% 10rem 17%;
+    */
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    width: 50%;
+    transition: 1s 0.7s ease-in-out;
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+    padding: 3rem 12% 10rem 10%;
 }
 
+.grid-child-2:before{
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background-image: linear-gradient(-45deg,  #00acee 0%, #00acee 100%);
+    top: -10%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+
+.btn1,.btn2{
+    border: none;
+    border-radius: 49px;
+    width: 150px;
+    height: 49px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #5995fd;
+    margin-top: 0px;
+    transition: 0.5s;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn1:hover, .btn2:hover{
+    background-color: #FA8072 ;
+}
+
+.btn2{
+    margin-top: 10px;
+}
+
+
+
+.twitter-timeline{
+    margin: 100px;
+}
+
+
 img{
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     z-index: -1;
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
