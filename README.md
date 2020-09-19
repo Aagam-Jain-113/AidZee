@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/Aagam-Jain-113/AidZee/blob/master/static/assets/Logo.png" width="200" height="200"/>
+</p>
 
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
