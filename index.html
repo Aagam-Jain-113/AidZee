@@ -4,34 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="./static/css/style.css" rel="stylesheet">
     <title>AIDZEE</title>
 </head>
 
 <body>
-    <section id="front">
-        
-        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#FA8072" fill-opacity="1"
-                d="M0,160L48,138.7C96,117,192,75,288,80C384,85,480,139,576,176C672,213,768,235,864,229.3C960,224,1056,192,1152,192C1248,192,1344,224,1392,240L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-            </path>
-        </svg>
-        
-        <h1> AIDZEE </h1>
-        <img src="pic.svg">
-        <div class="button">
-            <a href="#"><button class="btn1"> Public Room </button></a>
-            <a href="#"><button class="btn2"> Sign in </button></a>
+    <div class="grid-container">
+        <div class="grid-child-1">
+            <div class="button">
+                <img src="./static/img/pic.svg">
+                <a href="#"><button class="btn1"> Public Room </button></a>
+                <a href="#"><button class="btn2"> Sign in </button></a>
+            </div>
         </div>
-    </section>
-    <section>
-        <div class="box">
+    
+        <div class="grid-child-2">
             <a class="twitter-timeline" data-width="400" data-height="450"
-                href="https://twitter.com/NASA?ref_src=twsrc%5Etfw"></a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-           </div>
-    </section>
-
+            href="https://twitter.com/NASA?ref_src=twsrc%5Etfw"></a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      
+    </div>
 </body>
 
 </html>

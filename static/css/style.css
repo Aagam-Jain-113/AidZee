@@ -5,70 +5,77 @@
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: rgb(255, 255, 255);    
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
 }
 
-#front{
-    min-height:100vh;
-    display: flexbox;
-    background: pink;
-    margin: 0;
-}
-
-.wave{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-.button{
-    display: flex;
-    margin-left: 100px;
-}
-
-.btn1, .btn2{
-    display: inline-block;
-    border-radius: 30px;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px 40px;
-    margin: 250px 10px;
-    background: linear-gradient(45deg,#0d1ebb, rgb(13, 187, 199));
-    color: white;
+.btn1,.btn2{
     border: none;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
     cursor: pointer;
+    background: #5995fd;
+    margin-top: 0px;
 }
 
-h1{
-    margin: 0px 40px;
+.btn1:hover, .btn2:hover{
+    background:  #4d84e2;
+}
+
+.btn2{
+    margin-top: 10px;
+}
+
+.grid-child-2:before{
+        content: '';
+        position: absolute;
+        width: 2000px;
+        height: 2000px;
+        border-radius: 50%;
+        background: linear-gradient(-45deg, #3399ff ,#3399ff);
+        margin-top: -10%;
+        left: 0%;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+
+    
+.grid-child-1:before{
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #fa8072 ,#d8301d);
+    bottom: 10%;
+    right: 0%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.twitter-timeline{
+    margin: 100px;
+}
+
+.grid-child-1{
+    padding: 3rem 17% 2rem 12%;
+}
+
+.grid-child-2{
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 12% 10rem 17%;
 }
 
 img{
-    height: 300px;
-    width: 50%;
-    float: right;
-}
-
-.box{
-    position: absolute;
-    padding: 70px;
-    margin-left: 20%;
-}
-
-@media screen and (max-width: 600px){
-    .button{
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-    text-align: center;
-    margin-left: 20%;
-    }
-    .btn1{
-        margin-bottom: 50px;
-    }
-    .btn2{
-        margin-top: -100px;
-        margin-bottom: 320px;
-    }
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    margin-top: -100px;
 }
