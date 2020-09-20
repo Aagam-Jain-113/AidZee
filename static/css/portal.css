@@ -274,13 +274,21 @@ form.sign-in-form {
 }
 
 .button{
+  width: 150px;
   background: #5995fd;
+  border: none;
+  color: #fff;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
   padding: 10px 15px;
-  color: black;
-  border-radius: 25px;
-  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
   transition: 0.4s;
-}
+  text-align: center; 
+} */
 
 .button:hover{
   background: #fa8072;
