@@ -3,54 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../static/icons/login.png" />
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../static/css/portal.css" />
-    <title>Login</title>
+    <title>AidZee | Portal</title>
   </head>
   <body>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
+          
+          <!-- SIGN IN -->
           <form action="#" class="sign-in-form">
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Name" id ="name" />
+              <input type="text" placeholder="Name" id="name" />
             </div>
             <div class="input-field">
               <i class="fas fa-mobile"></i>
-              <input type="number" placeholder="Mobile Number"  id ="phone"/>
+              <input
+                type="text"
+                placeholder="Mobile Number"
+                id="phone"
+                required=""
+                autofocus=""
+              />
             </div>
-              <!-- <input type="submit" value="Login" class="btn solid" /> -->
-              <a href="#" class="button" id="loginbtn"> Login </a>
+            <button class="button" type="button" id="loginbtn">Login</button>
             <p class="social-text">Or Sign in with social platforms</p>
             <div class="social-media">
               <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
           </form>
+
+          <!-- SIGN UP-->
           <form action="#" class="sign-up-form">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Your Name"  id ="name"/>
+              <input type="text" placeholder="Your Name" />
             </div>
             <div class="input-field">
               <i class="fas fa-mobile"></i>
-              <input type="number" placeholder="Your Mobile No." id ="phone" />
+              <input
+                type="text"
+                placeholder="Your Mobile Number"
+                id="signup-phone"
+                required=""
+                autofocus=""
+              />
             </div>
             <div class="input-field">
               <i class="fas fa-map-marked-alt"></i>
@@ -58,9 +68,8 @@
             </div>
             <div class="input-field">
               <i class="fas fa-birthday-cake"></i>
-              <input type="number" placeholder="Your Age" />
+              <input type="text" placeholder="Your Age" />
             </div>
-            <!--<input type="submit" class="btn" id="registerbtn" value="Sign up" />-->
             <a href="#" class="button" id="registerbtn"> Register </a>
             <p class="social-text">Or Sign up with social platforms</p>
             <div class="social-media">
@@ -68,13 +77,7 @@
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
           </form>
@@ -85,12 +88,8 @@
         <div class="panel left-panel">
           <div class="content">
             <h3>New here ?</h3>
-            <p>
-              Join us and be a part of this amazing AidZee comUNITY!
-            </p>
-            <button class="btn transparent" id="sign-up-btn">
-              Sign up
-            </button>
+            <p>Join us and be a part of this amazing AidZee comUNITY!</p>
+            <button class="btn transparent" id="sign-up-btn">Sign up</button>
           </div>
           <img src="../static/img/log.svg" class="image" alt="" />
         </div>
@@ -98,11 +97,9 @@
           <div class="content">
             <h3>One of us ?</h3>
             <p>
-              What are you waiting for? Log in to discover your neighbourhood 
+              What are you waiting for? Log in to discover your neighbourhood
             </p>
-            <button class="btn transparent" id="sign-in-btn">
-              Sign In
-            </button>
+            <button class="btn transparent" id="sign-in-btn">Sign In</button>
           </div>
           <img src="../static/img/sign up.svg" class="image" alt="" />
         </div>
@@ -110,13 +107,14 @@
     </div>
     <div class="popup">
       <div class="popup-content">
-          <h1 id="otp-title">OTP</h1>
-          <img src="../static/img/close.png" alt="close" class="close">
-          <input class="otp" type="text" placeholder="Enter OTP">
-          <a href="../templates/home.html" class="button">Verify</a>
+        <h1 id="otp-title">OTP</h1>
+        <img src="../static/img/close.png" alt="close" class="close" />
+        <input class="otp" type="otp" placeholder="Enter OTP" id="inputOTP" />
+        <a href="../templates/home.html" class="button" id="verifyOTP"
+          >Verify</a
+        >
       </div>
     </div>
-
-    <script src="../static/scripts/app.js"></script>
+    <script src="../static/scripts/portal.js"></script>
   </body>
 </html>
