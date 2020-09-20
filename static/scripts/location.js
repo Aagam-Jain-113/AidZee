@@ -14,5 +14,3 @@ getLocation.addEventListener('click', evt =>{
         console.log("Error!");
     }
 });
-
-setTimeout(function(){ window.location = "http://127.0.0.1:5500/templates/portal.html"; },2000);
