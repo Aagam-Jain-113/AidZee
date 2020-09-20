@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Aagam-Jain-113/AidZee/blob/master/static/assets/Logo.png" width="200" height="200"/>
+  <a href="https://aidzee.netlify.app/"><img src="https://github.com/Aagam-Jain-113/AidZee/blob/master/static/assets/Logo.png" width="200" height="200"/></a>
 </p>
 
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
@@ -12,7 +12,7 @@ In this project, we bring everyone around you closer, virtually by creating a pl
 If you want some help and are in a hurry, don't look here and there. Look for our AidZee Gang and head over to our AidZeeCord (Chat), and available members will help you. 
 So, feeling lonely and want someone to talk or need some help. Hit up, AidZee!
 
-## :film_projector: Demo
+#### To know about our AidZeeCord visit https://github.com/thesauravkarmakar/AidZeeCord
 
 ## :couple: Want to visit the website?
 
