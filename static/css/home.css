@@ -184,6 +184,35 @@ progress {
 	margin-left: auto;
 }
 
+.nav-center{
+  margin-left: 500px;
+}
+
+@media screen and (max-width:600px){
+  .nav-center{
+    margin-left: 50px;
+    margin-right: -50px;
+  }
+}
+
+.chat{
+  text-align:center;
+  position: relative;
+  height: 40px;
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 50%;
+  border-radius: 20px;
+  background: #FA8072;
+  color:white;
+  cursor: pointer;
+  border: none;
+}
+
+.chat:hover{
+  background: black;
+}
+
 .navbar-search {
 	position: relative;
 	margin: auto;
