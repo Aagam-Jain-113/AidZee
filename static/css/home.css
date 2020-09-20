@@ -185,9 +185,8 @@ progress {
 }
 
 .nav-center{
-  margin-left: 300px;
+  margin-top: 20px;
 }
-
 
 .chatbutton{
   width: 150px;
@@ -203,14 +202,13 @@ progress {
   cursor: pointer;
   transition: 0.4s;
   text-align: center;
-  margin: 500px;
+  margin: 550px;
 } 
 
 @media screen and (max-width: 600px){
   .chatbutton{
     margin: 0px;
   }
-  
 }
 
 .chatbutton:hover{

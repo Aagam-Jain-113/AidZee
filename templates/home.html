@@ -17,12 +17,16 @@
 
 <body>
     <div class="navbar">
-		<!-- nav left -->
 		<ul class="navbar-nav">
 			<li class="nav-item">
 				<a href="../index.html">
 				<img src="../static/assets/Logo.png" alt="Icon" class="logo logo-light">
 			</li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item nav-center">
+                <a href="#" class="chatbutton" id="chatbtn"> CHAT </a>
+            </li>
         </ul>
 
 		<ul class="navbar-nav nav-right">
@@ -254,89 +258,13 @@
 				</div>
 			</li>
         </ul>
-		<!-- end nav right -->
 	</div>
-    <!-- <nav class="panel-menu" id="mobile-menu">
-        <ul>
-
-        </ul>
-        <div class="mm-navbtn-names">
-            <div class="mm-closebtn">
-                Close
-                <div class="tt-icon">
-                    <svg>
-                        <use xlink:href="#icon-cancel"></use>
-                    </svg>
-                </div>
-            </div>
-            <div class="mm-backbtn">Back</div>
-        </div>
-    </nav>
-
-    <header id="tt-header">
-        <div class="container">
-            <div class="row tt-row no-gutters">
-                <div class="col-auto">
-                     toggle mobile menu 
-                    <a class="toggle-mobile-menu" href="#">
-                        <svg class="tt-icon">
-                            <use xlink:href="#icon-menu_icon"></use>
-                        </svg>
-                    </a>
-                    
-                    
-                    <div class="tt-logo">
-                        <a href="../index.html"><img src="../static/assets/Logo.png" alt=""></a>
-                    </div>
-                    
-                    <div class="tt-desktop-menu">
-                        <nav>
-                            <ul>
-                                <li><a href="page-categories.html"><span>Categories</span></a></li>
-                                <li><a href="page-tabs.html"><span>Trending</span></a></li>
-                                <li><a href="page-create-topic.html"><span>New</span></a></li>
-                                <li>
-                                    <a href="page-single-user.html"><span>Pages</span></a>
-                                    <ul>
-                                        <li><a href="../index.html">Home</a></li>
-                                        <li><a href="page-tabs.html">About</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    
-                </div>
-                <div class="col-auto ml-auto">
-                    <div class="tt-user-info d-flex justify-content-center">
-                        <a href="#" class="tt-btn-icon">
-                            <i class="tt-icon"><svg>
-                                    <use xlink:href="#icon-notification"></use>
-                                </svg></i>
-                        </a>
-                        <div class="tt-avatar-icon tt-size-md">
-                            <i class="tt-icon"><svg>
-                                    <use xlink:href="#icon-ava-a"></use>
-                                </svg></i>
-                        </div>
-                        <div class="custom-select-01">
-                            <select name="select_opt" onchange="opt = this.value;">
-                                <option value="Default Sorting">Saurav</option>
-                                <option value="sign_out">Sign out</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
 
     <main id="tt-pageContent">
         <div class="container">
             <div class="tt-wrapper-inner">
                 <form class="form-default form-create-topic">
                     <div class="form-group">
-                               <a href="https://aidzeecord.herokuapp.com/" class="chatbutton" id="chatbtn"> CHAT <br></a>
                         <label for="inputTopicTitle" style="margin-top:100px ;">Your Query</label>
                         <div class="tt-value-wrapper">
                             <input type="text" name="name" class="form-control" id="inputTopicTitle"
@@ -350,11 +278,11 @@
                                 <div class="col-4 col-lg-3 col-xl-2">
                                     <a href="#" class="tt-button-icon">
                                         <span class="tt-icon">
-                                            <!-- <svg> -->
+                                           
                                             <use xlink:href="#icon-discussion"></use>
                                             <img src="../static/img/icons/icon-discussion.svg" height="50px"
                                                 width="50px">
-                                            <!-- </svg> -->
+                                           
                                         </span>
                                         <span class="tt-text">Discussion</span>
                                     </a>
@@ -362,10 +290,10 @@
                                 <div class="col-4 col-lg-3 col-xl-2">
                                     <a href="#" class="tt-button-icon">
                                         <span class="tt-icon">
-                                            <!-- <svg> -->
+                                            
                                             <use xlink:href="#Question"></use>
                                             <img src="../static/img/icons/Question.svg" height="50px" width="50px">
-                                            <!-- </svg> -->
+                                            
                                         </span>
                                         <span class="tt-text">Question</span>
                                     </a>
@@ -373,10 +301,10 @@
                                 <div class="col-4 col-lg-3 col-xl-2">
                                     <a href="#" class="tt-button-icon">
                                         <span class="tt-icon">
-                                            <!-- <svg> -->
+                                            
                                             <use xlink:href="#Poll"></use>
                                             <img src="../static/img/icons/Poll.svg" height="50px" width="50px">
-                                            <!-- </svg> -->
+                                            
                                         </span>
                                         <span class="tt-text">Poll</span>
                                     </a>
@@ -384,10 +312,10 @@
                                 <div class="col-4 col-lg-3 col-xl-2">
                                     <a href="#" class="tt-button-icon">
                                         <span class="tt-icon">
-                                            <!-- <svg> -->
+                                            
                                             <use xlink:href="#icon-gallery"></use>
                                             <img src="../static/img/icons/icon-gallery.svg" height="50px" width="50px">
-                                            <!-- </svg> -->
+                                            
                                         </span>
                                         <span class="tt-text">Gallery</span>
                                     </a>
@@ -395,10 +323,10 @@
                                 <div class="col-4 col-lg-3 col-xl-2">
                                     <a href="#" class="tt-button-icon">
                                         <span class="tt-icon">
-                                            <!-- <svg> -->
+                                            
                                             <use xlink:href="#Video"></use>
                                             <img src="../static/img/icons/Video.svg" height="50px" width="50px">
-                                            <!-- </svg> -->
+                                            
                                         </span>
                                         <span class="tt-text">Video</span>
                                     </a>
@@ -406,10 +334,10 @@
                                 <div class="col-4 col-lg-3 col-xl-2">
                                     <a href="#" class="tt-button-icon">
                                         <span class="tt-icon">
-                                            <!-- <svg> -->
+                                            
                                             <use xlink:href="#Others"></use>
                                             <img src="../static/img/icons/Others.svg" height="50px" width="50px">
-                                            <!-- </svg> -->
+                                            
                                         </span>
                                         <span class="tt-text">Other</span>
                                     </a>
@@ -472,7 +400,7 @@
                             </div>
                         </form>
                     </div>
-                    <!-- /tt-search -->
+                    
                 </div>
                 <div class="tt-list-header tt-border-bottom">
                     <div class="tt-col-topic">Posts</div>
