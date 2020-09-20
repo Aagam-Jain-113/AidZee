@@ -1,32 +1,6 @@
-/*
-Table Of Contents:
-
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Customers
-06. Services
-07. Details 1
-08. Details 2
-09. Details Lightboxes
-10. Pricing
-11. Request
-12. Video
-13. Testimonials
-14. About
-15. Contact
-16. Footer
-17. Copyright
-18. Back To Top Button
-19. Extra Pages
-20. Media Queries
-******************************************/
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-/******************************/
-/*     01. General Styles     */
-/******************************/
+
 body,
 html {
     width: 100%;
@@ -447,10 +421,6 @@ input[type='checkbox'] {
 }
 /* end of form success and error message animation - Animate.css */
 
-
-/*************************/
-/*     02. Preloader     */
-/*************************/
 .spinner-wrapper {
 	position: fixed;
 	z-index: 999999;
