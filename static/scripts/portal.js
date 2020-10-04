@@ -22,3 +22,42 @@ document.getElementById("registerbtn").addEventListener("click",function(){
 document.querySelector(".close").addEventListener("click",function(){
   document.querySelector(".popup").style.display="none";
 })
+
+
+/* IMPLEMENTATION OF GEOLOCATION API */
+
+
+function showError(error) {
+  switch (error.code) {
+    case error.PERMISSION_DENIED:
+      console.log("User denied the request for Geolocation.");
+      break;
+    case error.POSITION_UNAVAILABLE:
+      console.log("Location information is unavailable.");
+      break;
+    case error.TIMEOUT:
+      console.log("The request to get user location timed out.");
+      break;
+    case error.UNKNOWN_ERROR:
+      console.log("An unknown error occurred.");
+      break;
+  }
+}
+
+if ("geolocation" in navigator) {
+  /* geolocation is available */
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      /* success: print result on the console */
+      console.log("latitude: " + position.coords.latitude);
+      console.log("longitude: " + position.coords.longitude);
+    },
+    (error) => {
+      /* error: call showError Method for detailed logging of the error */
+      showError(error);
+    }
+  );
+} else {
+  /* geolocation IS NOT available */
+  console.log("sorry, geolocation is not available on this device");
+}
