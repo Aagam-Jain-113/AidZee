@@ -46,7 +46,7 @@ Here,https://aidzee.netlify.app/ or watch [Demo Video](https://youtu.be/nTIumXl3
 ## 🤝 Contributors 
 
 Your contributions are always welcome! 😀 </br>
-Please take a look at our contributing guidelines if you're interested in helping towards making the repository better!
+Please take a look at our contributing[contributing](./CONTRIBUTING.md) guidelines if you're interested in helping towards making the repository better!
 
 ## :page_with_curl: Licence 
 
