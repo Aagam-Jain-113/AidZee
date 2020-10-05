@@ -51,6 +51,7 @@ if ("geolocation" in navigator) {
       /* success: print result on the console */
       console.log("latitude: " + position.coords.latitude);
       console.log("longitude: " + position.coords.longitude);
+      document.getElementsByClassName('location-loader-container')[0].style.display = "none";
     },
     (error) => {
       /* error: call showError Method for detailed logging of the error */
