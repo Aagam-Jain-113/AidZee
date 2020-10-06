@@ -10,15 +10,51 @@
 }
 
 .message {
+  text-align: center;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   margin-top: 50px;
   color: white;
 }
 
-.pin {
+.access-pending {
+  color: wheat;
+}
+
+.access-denied {
+  color: white;
+  display: none;
+}
+
+.access-denied-1 {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.access-denied-3 {
+  background: white;
+  width: 130px;
+  margin: 20px auto 10px auto;
+  font-size: 25px;
+  
+  transition: all ease 0.25s;
+}
+
+.access-denied-3 a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.access-denied-3:hover {
+  transform: scale(1.05);
+  transition: all ease 0.25s;
+}
+
+
+.pin {  
   width: 30px;
   height: 30px;
   border-radius: 50% 50% 50% 0;

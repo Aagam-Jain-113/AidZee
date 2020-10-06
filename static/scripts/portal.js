@@ -56,6 +56,8 @@ if ("geolocation" in navigator) {
     (error) => {
       /* error: call showError Method for detailed logging of the error */
       showError(error);
+      document.getElementsByClassName('access-pending')[0].style.display = "none";
+      document.getElementsByClassName('access-denied')[0].style.display = "block";
     }
   );
 } else {
