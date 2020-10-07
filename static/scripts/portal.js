@@ -51,10 +51,13 @@ if ("geolocation" in navigator) {
       /* success: print result on the console */
       console.log("latitude: " + position.coords.latitude);
       console.log("longitude: " + position.coords.longitude);
+      document.getElementsByClassName('location-loader-container')[0].style.display = "none";
     },
     (error) => {
       /* error: call showError Method for detailed logging of the error */
       showError(error);
+      document.getElementsByClassName('access-pending')[0].style.display = "none";
+      document.getElementsByClassName('access-denied')[0].style.display = "block";
     }
   );
 } else {

@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../static/icons/login.png" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../static/css/location.css" />
     <link rel="stylesheet" href="../static/css/portal.css" />
     <title>AidZee | Portal</title>
   </head>
   <body>
+    <div class="location-loader-container">
+        <div class="pin"></div>
+        <div class="pulse"></div>
+        <div class="message">
+          <p class="access-pending">please give location access</p>
+          <div class="access-denied">
+            <p class="access-denied-1">you can not access this page until you give location access</p>
+            <p class="access-denied-2">please allow location from the top left corner of address bar</p>
+            <p class="access-denied-3"><a href="/">Go Back</a></p>
+          </div> 
+        </div>
+    </div>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
