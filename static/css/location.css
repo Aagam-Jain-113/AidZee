@@ -34,11 +34,11 @@
 }
 
 .access-denied-3 {
-  background: white;
-  width: 130px;
+  background: #00cae9;
+  width: 200px;
   margin: 20px auto 10px auto;
-  font-size: 25px;
-  
+  font-size: 20px;
+  border-radius: 49px;
   transition: all ease 0.25s;
 }
 

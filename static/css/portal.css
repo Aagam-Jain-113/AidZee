@@ -303,7 +303,7 @@ form.sign-in-form {
   cursor: pointer;
   transition: 0.4s;
   text-align: center; 
-} */
+} 
 
 .button:hover{
   background: #fa8072;
