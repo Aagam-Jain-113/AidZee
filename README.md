@@ -41,7 +41,6 @@ Here,https://aidzee.netlify.app/ or watch [Demo Video](https://youtu.be/nTIumXl3
 ## :man_in_tuxedo: Author
 1. [Aagam Jain](https://www.linkedin.com/in/aagam-jain-b5760619a/)
 2. [Saurav Karmakar](https://www.linkedin.com/in/sauravkarmakar/)
-3. [Utkarsh Kumawat](https://www.linkedin.com/in/utkarsh-kumawat-86094816b/) 
 
 ## 🤝 Contributors 
 
