@@ -15,7 +15,7 @@ So, feeling lonely and want someone to talk or need some help. Hit up, AidZee!
 
 ## :couple: Want to visit the website?
 
-Here,https://aidzee.netlify.app/ or watch [Demo Video](https://youtu.be/nTIumXl3_Xo) 
+Here,https://aidzee.netlify.app/ or watch [Demo Video](https://youtu.be/ndR8ldQaAmA) 
 
 ## :man_technologist: Technology Stack
 
