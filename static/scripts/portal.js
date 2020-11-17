@@ -26,7 +26,6 @@ document.querySelector(".close").addEventListener("click",function(){
 
 /* IMPLEMENTATION OF GEOLOCATION API */
 
-
 function showError(error) {
   switch (error.code) {
     case error.PERMISSION_DENIED:

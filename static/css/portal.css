@@ -457,6 +457,11 @@ form.sign-in-form {
     padding: 0 1.5rem;
   }
 
+  .title{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
   .image {
     display: none;
   }
@@ -473,7 +478,7 @@ form.sign-in-form {
   }
 
   .container.sign-up-mode:before {
-    bottom: 28%;
+    bottom: 22%;
     left: 50%;
   }
 }
